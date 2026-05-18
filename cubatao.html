@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cubatão</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial;
+        background: #18191aa6;
+        padding: 30px;
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #eaf1f1;
+      }
+      h1::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #e55501;
+        margin: 10px auto;
+      }
+      h1:hover {
+        color: #171a20dd;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: auto;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+      }
+      .botaoBairro {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        width: 100%;
+        padding: 8px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        background-color: #eaf1f1;
+        color: rgb(15, 15, 16);
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 10px 4px 8px rgba(13, 161, 241, 0.722);
+        transition: all 0.3s ease;
+      }
+      .botaoBairro:hover {
+        transform: scale(1.05);
+        background-color: #e5ecec;
+        color: rgb(6, 6, 69);
+        font-weight: bold;
+      }
+      .btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      .btn-voltar {
+        background-color: #007bff; /* Cor de fundo */
+        color: white; /* Cor do texto */
+        border: none; /* Remove a borda padrão */
+        padding: 12px 24px; /* Espaçamento interno */
+        font-size: 16px; /* Tamanho do texto */
+        border-radius: 35px; /* Bordas arredondadas */
+        cursor: pointer; /* Mostra o ícone de dedo clicável */
+        transition: background-color 0.3s; /* Efeito suave ao passar o mouse */
+      }
+
+      .btn-voltar:hover {
+        background-color: #0056b3;
+        opacity: 0.9; /* Efeito de opacidade ao passar o mouse */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🏢 Bairros de Cubatão</h1>
+
+    <div class="container">
+      <button class="botaoBairro">Areais</button>
+
+      <button class="botaoBairro">Caminho do Mar</button>
+
+      <button class="botaoBairro">Centro</button>
+
+      <button class="botaoBairro">Cota 95 / 100</button>
+
+      <button class="botaoBairro">Cota 200</button>
+
+      <button class="botaoBairro">Cota 400</button>
+
+      <button class="botaoBairro">Cota 500</button>
+
+      <button class="botaoBairro">Cruzeiro Quinhentista</button>
+
+      <button class="botaoBairro">Ilha Caraguatá</button>
+
+      <button class="botaoBairro">Ilha do Tatu</button>
+
+      <button class="botaoBairro">Ilha Nhapium</button>
+
+      <button class="botaoBairro">Ilha Pompeva</button>
+
+      <button class="botaoBairro">Itutinga-Pilões</button>
+
+      <button class="botaoBairro">Jardim Anchieta</button>
+
+      <button class="botaoBairro">Jardim Casqueiro</button>
+
+      <button class="botaoBairro">Jardim Nova República</button>
+
+      <button class="botaoBairro">Jardim São Francisco</button>
+
+      <button class="botaoBairro">Parque Cotia-Pará</button>
+
+      <button class="botaoBairro">Parque Fernando Jorge</button>
+
+      <button class="botaoBairro">Parque Perequê</button>
+
+      <button class="botaoBairro">Parque São Luis</button>
+
+      <button class="botaoBairro">Piaçaguera</button>
+
+      <button class="botaoBairro">Pinhal do Miranda</button>
+
+      <button class="botaoBairro">Raiz da Serra</button>
+
+      <button class="botaoBairro">Vale Verde</button>
+
+      <button class="botaoBairro">Vila Couto</button>
+
+      <button class="botaoBairro">Vila Elizabeth</button>
+
+      <button class="botaoBairro">Vila Esperança</button>
+
+      <button class="botaoBairro">Vila Fabril</button>
+    </div>
+
+    <div class="btn">
+      <button onclick="history.back()" class="btn-voltar">Voltar</button>
+    </div>
+  </body>
+</html>

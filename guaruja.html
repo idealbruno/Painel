@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guarujá</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial;
+        background: #eaebeca6;
+        padding: 30px;
+      }
+      h1{
+        text-align: center;
+        margin-bottom: 30px;
+        color: #1b1c1c;
+      }
+      h1::after{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #e55501;
+        margin: 10px auto;
+      }
+
+    .container {
+        max-width: 800px;
+        margin: auto;
+      }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }  
+    .botaoBairro{
+        display: grid;
+        grid-template-columns: 1fr auto;
+        width: 100%;
+        padding: 8px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        background-color: #909696b8;
+        color: rgb(15, 15, 16);
+        border: none;
+        text-align: center;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 10px 4px 8px rgba(39, 56, 65, 0.274);
+        transition: all 0.3s ease;
+    }
+    .botaoBairro:hover{
+         transform: scale(1.05);
+         background-color: #e5ecec;
+         color: rgb(6, 6, 69);
+         font-weight: bold;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .btn-voltar {
+       background-color: #007bff; /* Cor de fundo */
+       color: white; /* Cor do texto */
+       border: none; /* Remove a borda padrão */
+       padding: 15px 22px; /* Espaçamento interno */
+       font-size: 16px; /* Tamanho do texto */
+       border-radius: 35px; /* Bordas arredondadas */
+       cursor: pointer; /* Mostra o ícone de dedo clicável */
+       transition: background-color 0.3s; /* Efeito suave ao passar o mouse */
+     }
+      
+    .btn-voltar:hover {
+      background-color: #0056b3;
+      opacity: 0.9; /* Efeito de opacidade ao passar o mouse */
+      font-weight: bold;
+    }
+    </style>
+</head>
+<body>
+    
+    <h1>🏢 Bairros do Guarujá</h1>
+
+    <div class="container">
+      <button class="botaoBairro">Astúrias (Jardim Astúrias)</button>
+
+      <button class="botaoBairro">Balneário Cidade Atlântica</button>
+
+      <button class="botaoBairro">Balneário Mar Casado</button>
+
+      <button class="botaoBairro">Balneário Praia do Pernambuco</button>
+
+      <button class="botaoBairro">Barra Funda</button>
+
+      <button class="botaoBairro">Barra Grande</button>
+
+      <button class="botaoBairro">Boa Esperança (Jardim Boa Esperança)</button>
+
+      <button class="botaoBairro">Cachoeira</button>
+
+      <button class="botaoBairro">Centro (Pitangueiras)</button>
+
+      <button class="botaoBairro">Conceiçãozinha (Jardim Conceiçãozinha)</button>
+
+      <button class="botaoBairro">Crumaú</button>
+
+      <button class="botaoBairro">Enseada</button>
+
+      <button class="botaoBairro">Esplanada do Castelo</button>
+
+      <button class="botaoBairro">Guaiúba (Jardim Guaiúba)</button>
+
+      <button class="botaoBairro">Guararu</button>
+
+      <button class="botaoBairro">Itapema</button>
+
+      <button class="botaoBairro">Jardim Acapulco</button>
+
+      <button class="botaoBairro">Jardim Bela Vista</button>
+
+      <button class="botaoBairro">Jardim Belmar</button>
+
+      <button class="botaoBairro">Jardim Brasil</button>
+
+      <button class="botaoBairro">Jardim Helena Maria</button>
+
+      <button class="botaoBairro">Jardim Las Palmas</button>
+
+      <button class="botaoBairro">Jardim Maravilha</button>
+
+      <button class="botaoBairro">Jardim Mare Mansa</button>
+
+      <button class="botaoBairro">Jardim Praiano</button>
+
+      <button class="botaoBairro">Jardim Progresso</button>
+
+      <button class="botaoBairro">Jardim Santa Maria</button>
+
+      <button class="botaoBairro">Jardim Santana</button>
+
+      <button class="botaoBairro">Jardim São Miguel</button>
+
+      <button class="botaoBairro">Jardim Tejereba</button>
+
+      <button class="botaoBairro">Jardim Três Marias</button>
+
+      <button class="botaoBairro">Jardim Virgínia</button>
+
+      <button class="botaoBairro">Monteiro da Cruz</button>
+
+      <button class="botaoBairro">Morrinhos (I, II, III, IV)</button>
+
+      <button class="botaoBairro">Pae Cará</button>
+
+      <button class="botaoBairro">Parque Estuário</button>
+
+      <button class="botaoBairro">Perequê</button>
+
+      <button class="botaoBairro">Piaçaguera</button>
+
+      <button class="botaoBairro">Prainha Branca</button>
+
+      <button class="botaoBairro">Santa Cruz dos Navegantes</button>
+
+      <button class="botaoBairro">Santa Rosa</button>
+
+      <button class="botaoBairro">Sítio Paecará</button>
+
+      <button class="botaoBairro">Tombo</button>
+
+      <button class="botaoBairro">Vargem Grande</button>
+
+      <button class="botaoBairro">Vila Áurea</button>
+
+      <button class="botaoBairro">Vila Baiana</button>
+
+      <button class="botaoBairro">Vila Edna</button>
+
+      <button class="botaoBairro">Vila Júlia</button>
+
+      <button class="botaoBairro">Vila Lygia</button>
+
+      <button class="botaoBairro">Vila Rã</button>
+
+      <button class="botaoBairro">Vila Santo Antônio</button>
+
+      <button class="botaoBairro">Vila Zilda</button>
+
+      </div>
+
+      <div class="btn">
+        <button onclick="history.back()" class="btn-voltar">Voltar</button>
+      </div>
+</body>
+</html>

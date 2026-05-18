@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(238, 236, 236);
+  color: #000;
+}
+a {
+  text-decoration: none;
+  
+}
+section {
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #011c06;
+}
+
+section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #626563;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+section h2::after{
+  content: '';
+  display: block;
+  width: 300px;
+  height: 6px;
+  background: #d76e04;
+  margin: 10px auto 0;
+}
+section h2:hover{
+  color: #1280e8;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+  align-items: center;
+  padding: 25px;
+  border-radius: 20px;
+  min-height: 180px;
+  border: 1px solid #010135;
+  transition: 0.3s ease;
+  box-shadow: 20px 4px 8px rgba(1, 30, 96, 0.722);
+}
+
+.card:hover {
+  background: #fdf8f8;
+  box-shadow: 20px 4px 8px rgba(1, 30, 96, 0.722);
+  transform: scale(1.02);
+}
+
+.service-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-image img {
+  width: 140px;
+  max-height: 160px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+button {
+  position: relative;
+  top: 80px;
+  width: 150px;
+  padding: 8px 5px;
+  border: 3px solid #033357;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #dddfe2;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+.btn-voltar {
+    background-color: #007bff; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    padding: 12px 24px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho do texto */
+    border-radius: 35px; /* Bordas arredondadas */
+    cursor: cursor; /* Mostra o ícone de dedo clicável */
+    transition: background-color 0.3s; /* Efeito suave ao passar o mouse */
+}
+
+.btn-voltar:hover {
+    background-color: #0056b3;
+    opacity: 0.9; /* Efeito de opacidade ao passar o mouse */
+}
+
+@media (max-width: 900px) {
+  .services {
+    grid-template-columns: 1fr;
+  }
+
+  .team {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 600px) {
+  .team {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .card {
+    padding: 20px;
+    min-height: auto;
+  }
+
+  .tag {
+    font-size: 14px;
+  }
+
+  .link {
+    font-size: 13px;
+  }
+
+  .arrow {
+    width: 22px;
+    height: 22px;
+    font-size: 12px;
+  }
+
+  .cta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .cta h2 {
+    font-size: 18px;
+  }
+
+  .cta p {
+    font-size: 14px;
+  }
+}
