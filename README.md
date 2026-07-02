@@ -29,7 +29,7 @@ O objetivo deste projeto é centralizar informações geográficas de forma orga
 
 * HTML 
 * CSS
-https://idealbruno.github.io/Painel/
+* https://idealbruno.github.io/Painel/
 
 ## Licença
 
