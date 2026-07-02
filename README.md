@@ -27,8 +27,8 @@ O objetivo deste projeto é centralizar informações geográficas de forma orga
 
 ## Tecnologias
 
-Html 
-Css
+* HTML 
+* CSS
 
 
 ## Licença
