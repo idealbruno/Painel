@@ -1,6 +1,6 @@
 # 🗺️ Mapeamento da Cidade e Municípios de São Paulo
 
-Projeto dedicado ao mapeamento geográfico da cidade de São Paulo e dos municípios do estado, reunindo informações de localização, divisão territorial e dados que podem ser utilizados em aplicações de geolocalização, análise de dados, logística e visualização em mapas.
+Projeto dedicado ao mapeamento geográfico da cidade de São Paulo e dos municípios do estado e bairros, reunindo informações de localização.
 
 ## Objetivo
 
@@ -9,7 +9,6 @@ O objetivo deste projeto é centralizar informações geográficas de forma orga
 * Cidade de São Paulo;
 * Municípios do Estado de São Paulo;
 * Bairros;
-* Coordenadas geográficas;
 
 ## Funcionalidades
 
@@ -20,16 +19,16 @@ O objetivo deste projeto é centralizar informações geográficas de forma orga
 ```text
 .
 ├── /
-│   ├── cidades/
-│   ├── municipios/
-├── src/
-├── docs/
-└── README.md
+│   ├── Cidades/
+│   ├── Municipios/
+├── ├── Bairros
+
 ```
 
 ## Tecnologias
 
-As tecnologias utilizadas poderão incluir:
+Html 
+Css
 
 
 ## Licença
